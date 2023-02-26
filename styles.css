@@ -1,0 +1,14 @@
+body {
+  margin: 25px;
+  background-color: rgb(40,20,240);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Applies to all <h1>...</h1> elements. */
+h1 {
+    color: white;
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 5px;
+}

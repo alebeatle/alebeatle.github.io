@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <title>CV Alejandro</title>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+     <link href="/CSS/fontawesome.css" rel="stylesheet">
+     <link href="/CSS/solid.css" rel="stylesheet">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-     <link rel="stylesheet" type="text/css" href="CSS/styles.css">       
+     <link rel="stylesheet" type="text/css" href="/styles.css">       
     </head>
     
    
@@ -47,6 +49,7 @@
     </div>
     <div class="indexin3 text-center  ">
   <h1>        Curriculum Vitae Alejandro Ksybala  </h1>
+  
     </div>
  <div class="container-fluid bg-3 text-center">     
   <div class="row">  
@@ -54,6 +57,7 @@
              <a name="foto"></a>
              <img class="img-fluid" src="imagenes/Alejandro.jpg" alt="Foto de Alejandro">
              <p><strong>Ing. Alejandro Ksybala</strong></p>
+             <i class="fa-solid fa-user"></i>
               
             
           
@@ -61,7 +65,7 @@
          
          <div class="col-lg-10 col-sm-8 col-xs-12">
           <a name="info"></a>
-         <h3><strong>Info Personal</strong></h3><p>Ingeniero en Software</p><p>Barcelona, Espa&ntilde;a</p><p>Tel: 989 898 99</p><p>E-Mail: o.miranda@gmail.com</p><p>LinkedIn: linkedin.com/in/omiranda/</p><p>&nbsp;</p>
+         <h3><strong>Info Personal</strong></h3><p>Ingeniero en Software</p><p>Barcelona, Espa&ntilde;a</p><p>Tel: 989 898 99</p><i class="fa-sharp fa-solid fa-phone"></i><p>E-Mail: o.miranda@gmail.com</p><p>LinkedIn: linkedin.com/in/omiranda/</p><p>&nbsp;</p>
             </div>
 
 
@@ -84,9 +88,9 @@
         
                 
                 <li><p>Plataformas Mac, Linux y Windows</p></li>
-                <li><p>Plataformas Mac, Linux y Windows</p></li>              
-                <li><p>Plataformas Mac, Linux y Windows</p></li>
-                <li><p>Plataformas Mac, Linux y Windows</p></li>   
+                <li><p>Bases de datos Oracle</p></li>              
+                <li><p>Conocimientos de redes LAN y WAN</p></li>
+                <li><p>Bases de datos SQLServer</p></li>   
       </ul> 
           
          </div>
@@ -134,6 +138,22 @@
             </div>
           </div>  
           
+          <div class="row">
+
+<div class="col-lg-10 col-sm-8 col-xs-12">
+         
+             <a name="Educacion"></a>
+             <h3><strong>Educaci&oacute;n</strong></h3>
+             <p>Grado en Ingenier&iacute;a en Sistemas de Informaci&oacute;n</p>
+             <p>Universidad de Alcal&aacute;</p>
+             <p>Agosto 2010 - junio 2014</p>
+             
+             
+             
+          
+         </div>
+</div>
+          
              <div class="row">
         <a name="Idiomas"></a>
             <div class="col-lg-10 col-sm-8 col-xs-12">
@@ -144,9 +164,16 @@
              <ul>
         
                 
-                <li><p>Ingles - Nivel avanzado</p><button 
-onclick
-="alert('9 a&ntilde;os de estudio')">Detalles</button></li>
+                <li><p>Ingles - Nivel avanzado <button onclick="change_text()">Saber mas</button></p>
+               <p id="demo"> </p>
+
+
+
+<script>
+function change_text(){
+    document.getElementById("demo").innerHTML = "2 Inviernos residiendo en EEUU y estudios en Instituto Oxford.";
+}
+</script>
                 
                 <li><p>Alem&aacute;n - Nivel inicial</p></li>              
                
